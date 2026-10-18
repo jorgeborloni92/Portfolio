@@ -42,3 +42,18 @@
   dialog?.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
   dialog?.addEventListener('close',()=>{dialog.querySelector('img').removeAttribute('src');trigger?.focus({preventScroll:true});});
 })();
+
+// Two visual sides of the same repertoire; no autoplay audio.
+(() => {
+ const record=document.querySelector('.record-switch');
+ if(!record)return;
+ record.addEventListener('click',()=>{
+  const b=record.getAttribute('aria-pressed')!=='true';
+  record.setAttribute('aria-pressed',String(b));
+  record.setAttribute('aria-label',b?'Virar o disco: voltar ao retrato de Jorge':'Virar o disco: conhecer meu repertório brasileiro');
+  const img=record.querySelector('img');
+  img.src=b?'/assets/brasil/pelourinho.jpg':'/assets/portrait.png';
+  img.alt=b?'Fachadas do Pelourinho, Salvador: repertório brasileiro':'Jorge Borloni sorrindo';
+  document.querySelector('.record-caption').textContent=b?'LADO B — O QUE ME MOVE':'LADO A — QUEM FAZ';
+ });
+})();

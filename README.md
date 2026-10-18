@@ -1,6 +1,6 @@
-# Portfólio Jorge Borloni — edição 04
+# Portfólio Jorge Borloni — edição 05
 
-Código-fonte do portfólio de Jorge Borloni, edição 04: navegação inferior, seis cases S.T.A.R. e espaços de mídia. Os arquivos editáveis estão na raiz. `python3 build.py` monta o site nas pastas `public/` e `dist/`. Não requer instalação de bibliotecas. Salvar no GitHub não altera automaticamente a hospedagem pública anterior.
+Código-fonte do portfólio de Jorge Borloni, edição 05: navegação inferior, seis cases S.T.A.R. e espaços de mídia. Os arquivos editáveis estão na raiz. `python3 build.py` monta o site nas pastas `public/` e `dist/`. Não requer instalação de bibliotecas. Salvar no GitHub não altera automaticamente a hospedagem pública anterior.
 
 ## Conteúdo e mídias
 
@@ -35,3 +35,7 @@ As referências visuais da edição anterior e os créditos das fotografias cont
 ## Revisão visual 04
 
 Composição editorial mais limpa, navegação flutuante com rótulos e ícones, fotografia brasileira e acentos da paleta original. Conteúdo dos seis cases preservado. Referências: Apple Human Interface Guidelines (Tab bars), Material Design 3, Paul Michel, Coska/Fuudos e Cedar Studio.
+
+## Revisão visual 05
+
+Hero autoral inspirada em capa de disco, com identidade tipográfica e alternância entre retrato e repertório brasileiro. Cards e metadados dos cases refinados. Sem áudio automático. Referências pesquisadas: Visualfolio/ArconAI, Akilomba, Festival Akilomba, Pedro Mantovani e Diogo Avilar. Links completos na página de créditos.
