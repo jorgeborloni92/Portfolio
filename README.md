@@ -1,6 +1,6 @@
-# Portfólio Jorge Borloni — edição 03
+# Portfólio Jorge Borloni — edição 04
 
-Código-fonte do portfólio de Jorge Borloni, edição 03: navegação inferior, seis cases S.T.A.R. e espaços de mídia. Os arquivos editáveis estão na raiz. `python3 build.py` monta o site nas pastas `public/` e `dist/`. Não requer instalação de bibliotecas. Salvar no GitHub não altera automaticamente a hospedagem pública anterior.
+Código-fonte do portfólio de Jorge Borloni, edição 04: navegação inferior, seis cases S.T.A.R. e espaços de mídia. Os arquivos editáveis estão na raiz. `python3 build.py` monta o site nas pastas `public/` e `dist/`. Não requer instalação de bibliotecas. Salvar no GitHub não altera automaticamente a hospedagem pública anterior.
 
 ## Conteúdo e mídias
 
@@ -31,3 +31,7 @@ Na pasta do projeto, execute `python3 build.py` e depois `python3 -m http.server
 - Hierarquia de leitura: https://www.nngroup.com/articles/layer-cake-pattern-scanning/
 
 As referências visuais da edição anterior e os créditos das fotografias continuam na página `/creditos/`. Os frames do Figma não foram atualizados nesta edição.
+
+## Revisão visual 04
+
+Composição editorial mais limpa, navegação flutuante com rótulos e ícones, fotografia brasileira e acentos da paleta original. Conteúdo dos seis cases preservado. Referências: Apple Human Interface Guidelines (Tab bars), Material Design 3, Paul Michel, Coska/Fuudos e Cedar Studio.
