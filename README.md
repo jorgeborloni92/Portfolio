@@ -1,6 +1,6 @@
-# Portfólio Jorge Borloni — edição 05
+# Portfólio Jorge Borloni — edição 06
 
-Código-fonte do portfólio de Jorge Borloni, edição 05: navegação inferior, seis cases S.T.A.R. e espaços de mídia. Os arquivos editáveis estão na raiz. `python3 build.py` monta o site nas pastas `public/` e `dist/`. Não requer instalação de bibliotecas. Salvar no GitHub não altera automaticamente a hospedagem pública anterior.
+Código-fonte do portfólio de Jorge Borloni, edição 06: navegação inferior, seis cases S.T.A.R. e espaços de mídia. Os arquivos editáveis estão na raiz. `python3 build.py` monta o site nas pastas `public/` e `dist/`. Não requer instalação de bibliotecas. Salvar no GitHub não altera automaticamente a hospedagem pública anterior.
 
 ## Conteúdo e mídias
 
@@ -39,3 +39,7 @@ Composição editorial mais limpa, navegação flutuante com rótulos e ícones,
 ## Revisão visual 05
 
 Hero autoral inspirada em capa de disco, com identidade tipográfica e alternância entre retrato e repertório brasileiro. Cards e metadados dos cases refinados. Sem áudio automático. Referências pesquisadas: Visualfolio/ArconAI, Akilomba, Festival Akilomba, Pedro Mantovani e Diogo Avilar. Links completos na página de créditos.
+
+## Revisão visual 06
+
+Hero simplificada: nome, apresentação e vinil. Navegação com material translúcido inspirado nas orientações Apple, suporte a redução de transparência e fallback sem blur. Layout conferido em 320, 390, 430 e 768 px, além do desktop. Referência de capas: https://vinilrecords.com.br/product-category/mpb/samba/ . Referência de materiais: https://developer.apple.com/design/human-interface-guidelines/materials .
