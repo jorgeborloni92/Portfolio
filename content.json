@@ -1,0 +1,525 @@
+[
+  {
+    "slug": "fgts",
+    "title": "Menos barreiras. Mais gente chegando até o fim.",
+    "name": "Antecipação FGTS",
+    "category": "Produto · Pesquisa · Estratégia",
+    "client": "Jazz / dimo",
+    "period": "2022–2024 · resultados acompanhados em 2025",
+    "role": "Product Designer, em um time multidisciplinar",
+    "metric": "+325%",
+    "metricLabel": "nas contratações em 2024",
+    "image": "fgts.jpg",
+    "intro": "Tinha gente querendo contratar. O problema era conseguir terminar a jornada. Antes de redesenhar qualquer tela, fomos entender onde o caminho se perdia.",
+    "s": "O produto já estava no ar, mas acumulava fricções. No diagnóstico, 25% dos usuários abandonavam antes da proposta e só 7% dos que simulavam seguiam para a contratação. A validação por link externo fazia o cliente sair do app justamente quando estava mais perto de concluir.",
+    "t": "Minha atuação em Product Design era ajudar a transformar dados, relatos e limitações técnicas em um pacote de melhorias defensável. A meta do time: aumentar contratação e retenção, com uma experiência mais simples e uma proposta de produto mais competitiva.",
+    "a": [
+      "Primeiro, organizamos o que já existia: dados de comportamento, retornos de erro, dúvidas e pontos de abandono. Não faltava informação; faltava conectar as peças.",
+      "Atualizamos o benchmark e levamos as oportunidades para Produto, Tecnologia, Marketing e Negócios. A conversa também passou por regras comerciais, como valor mínimo, taxas e flexibilidade — afinal, uma tela sozinha não resolve tudo.",
+      "Desenhamos uma jornada 100% in-app, com tutorial opcional, informações principais em destaque e identificação automática da adesão ao saque-aniversário. As etapas de validação e assinatura passaram de três para uma."
+    ],
+    "r": "No primeiro ano das principais melhorias, 2024, as contratações cresceram 325%. O relato do projeto também registra aumento superior a 40% na retenção. Esses resultados acompanharam o pacote de mudanças de experiência, comunicação e negócio, construído por várias áreas.",
+    "learning": "Foi um divisor de águas na minha carreira. Defender a melhoria com dados e construir junto fez tanta diferença quanto a solução desenhada. Hoje eu faria a definição das métricas e dos períodos de comparação ainda mais cedo.",
+    "evidence": "Resultados relatados no portfólio original. Evolução do produto; não se trata de um experimento que isole o efeito do design.",
+    "source": "https://jorgeborloni.framer.website/works/antecipacao-fgts",
+    "detail": "fgts-detail.jpg",
+    "product": "Uma linha de crédito dentro da conta digital dimo que antecipa valores do saque-aniversário do FGTS. Para quem chega ao app, a pergunta é prática: quanto posso receber e o que preciso fazer para contratar? Para o produto, o caminho envolve elegibilidade, regras de negócio, proposta, validação e assinatura.",
+    "audience": "Clientes da conta dimo interessados em antecipar o saque-aniversário.",
+    "challenge": "Simplificar a experiência sem perder as validações que sustentam a contratação.",
+    "deployment": [
+      [
+        "O app era só uma parte",
+        "A jornada dependia de regras comerciais, validações e comunicação. Por isso, o trabalho conectou Design, Produto, Tecnologia, Marketing e Negócios."
+      ],
+      [
+        "Sair do app quebrava o caminho",
+        "A validação por link externo criava uma troca de contexto bem perto da contratação. A proposta levou essa etapa para dentro do app e reuniu validação e assinatura."
+      ],
+      [
+        "Menos esforço, sem esconder informação",
+        "Tutorial opcional, elegibilidade identificada automaticamente e informações principais em destaque ajudaram a reduzir etapas sem tirar do cliente o contexto da decisão."
+      ]
+    ],
+    "summary": "Redesenho da contratação, com validação dentro do app e articulação entre experiência, comunicação e regras de negócio.",
+    "status": "Melhorias implantadas",
+    "actionTitles": [
+      "Organizar antes de desenhar",
+      "Defender um pacote, não uma tela",
+      "Manter a contratação dentro do app"
+    ],
+    "extras": {
+      "s": [
+        {
+          "title": "O diagnóstico completo do funil",
+          "paragraphs": [
+            "Desde o lançamento, no final de 2021, acompanhávamos a antecipação do saque-aniversário na conta corporativa e na dimo. Entre dezembro de 2022 e março de 2024, organizamos os insumos para defender um pacote de evolução contínua.",
+            "No diagnóstico original: 25% abandonavam antes da proposta; só 7% dos clientes que simulavam continuavam; 57% recebiam erro por falta de margem; e 70% dos que aceitavam eram barrados em validação ou antifraude. Em outra análise do trecho após a confirmação da proposta, o relato registra 83% de abandono. São recortes diferentes do funil, não percentuais para somar.",
+            "O perfil observado era majoritariamente masculino, entre 30 e 44 anos, com renda de R$ 2 mil a R$ 3 mil e uso da conta concentrado em saídas de dinheiro via Pix e cartão. Esses dados descrevem o público da pesquisa na época."
+          ]
+        }
+      ],
+      "a": [
+        {
+          "title": "O que mudou na jornada e na proposta de produto",
+          "paragraphs": [
+            "Mapeamos erros, bugs e dúvidas para rever os retornos de texto e as ações oferecidas. Atualizamos benchmarks, perfil de usuários e capacidade tecnológica antes de desenhar.",
+            "O benchmark mostrou também um problema de competitividade: taxas, número de parcelas e alternativas de contratação fora da conta. Com Marketing, Negócios e Tecnologia, discutimos comunicação da base, redução do valor mínimo, taxas e flexibilidade.",
+            "Na experiência, a proposta foi manter a jornada 100% no app e reduzir de três para uma etapa de validação de segurança e assinatura. Sair para um link externo no meio da contratação era uma ruptura importante."
+          ]
+        }
+      ],
+      "r": [
+        {
+          "title": "Acompanhamento em 2025 e próximos passos",
+          "paragraphs": [
+            "O Framer registra, além dos 325% de crescimento em 2024 e da retenção superior a 40%, um crescimento de 62% no acompanhamento de 2025 e um acumulado relatado de 590% em relação a 2023. As bases e janelas desses números não estão detalhadas; por isso, mantenho-os como relato histórico, sem recalcular ou apresentar como uma série comparável.",
+            "Os próximos passos descritos eram criar contratação independente de conta corrente e ampliar canais: um formato web/mobile já havia sido iniciado e WhatsApp era uma intenção de longo prazo.",
+            "Também estávamos construindo com Produto uma rotina de pesquisas e entrevistas qualitativas e quantitativas para entender necessidades além do uso emergencial. São frentes descritas no relato da época, sem pressupor que todas já foram concluídas."
+          ]
+        }
+      ]
+    },
+    "team": "UX: Fernanda Beraldi, Matheus Paulineli e Jorge Borloni. UX Writing / Research: Alice Silva. Research: Ana Clara Zilli. UX Lead: Ikaro Martini. Produto: Felipe Viegas, Bruno Moura e Gustavo Schaffka.",
+    "media": [
+      {
+        "id": "fgts-s",
+        "stage": "s",
+        "type": "image",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Diagnóstico da jornada",
+        "caption": "Mapa do funil e pontos de abandono",
+        "items": []
+      },
+      {
+        "id": "fgts-a",
+        "stage": "a",
+        "type": "video",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "A jornada redesenhada",
+        "caption": "Comparativo antes e depois ou vídeo do fluxo",
+        "items": []
+      }
+    ]
+  },
+  {
+    "slug": "design-tokens",
+    "title": "UI e Front falando a mesma língua. Finalmente, rs.",
+    "name": "Design Tokens no white-label",
+    "category": "Design System · Operação · Desenvolvimento do time",
+    "client": "Jazz · conta digital white-label",
+    "period": "Relato publicado em maio de 2025",
+    "role": "Iniciativa, implementação com Front-end e passagem de conhecimento",
+    "metric": "4 → 1–2",
+    "metricLabel": "dias no SLA da customização",
+    "image": null,
+    "intro": "Cada novo parceiro trazia uma identidade. E, junto dela, um processo comprido de ajustes manuais. Fui atrás de um jeito de dar escala ao trabalho e autonomia ao time.",
+    "s": "A customização da conta white-label tinha uma curva de aprendizado alta. UI e Front-end nem sempre falavam a mesma língua, os arquivos JSON eram editados manualmente e o resultado em produção nem sempre correspondia ao Figma.",
+    "t": "Eu queria modernizar o processo sem ignorar o legado, melhorar a consistência e permitir que outras pessoas do time assumissem a demanda com segurança. A mudança precisava funcionar no dia a dia, não só na apresentação.",
+    "a": [
+      "Estudei Design Tokens, fiz formação especializada e conversei com profissionais e com nosso Front-end para entender o que cabia na realidade do produto.",
+      "Adaptei o JSON legado ao fluxo do Tokens Studio, com apoio de IA e validação técnica. Testamos em ambientes seguros e ajustamos algumas versões antes de levar para produção.",
+      "Criei documentação no Figma, guias de uso e conjuntos de componentes e ilustrações. Completei a passagem de conhecimento com demonstrações e conversas com o time.",
+      "Passamos a trabalhar com um arquivo-base: duplicar o esquema, aplicar as cores do parceiro e exportar. Menos edição manual de código em cada nova customização."
+    ],
+    "r": "O SLA passou de quatro dias para uma média de um a dois dias. Uma pessoa júnior de UX/UI passou a conduzir a demanda, enquanto fiquei no suporte e na supervisão. No artigo original, registrei também uma redução aproximada de 95% no retrabalho ou fricção operacional.",
+    "learning": "Escalar design também é tornar o conhecimento acessível. A ferramenta ajudou muito, mas a conversa com o Front e a documentação foram o que permitiu passar o bastão de verdade.",
+    "evidence": "SLA e redução aproximada de retrabalho são resultados relatados no artigo de maio de 2025. Integração automática com GitHub e expansão para outros tipos de tokens eram próximos passos, não entregas concluídas.",
+    "source": "https://medium.com/@jorge.borloni92/minha-jornada-dominando-desing-tokens-o-que-aprendi-9fa64908b897",
+    "product": "Uma conta digital white-label: a mesma base de produto pode receber a identidade de diferentes parceiros. Parece uma troca de cores, mas cada customização precisa continuar coerente no Figma, nos componentes e no app que chega ao cliente.",
+    "audience": "Time de Design e Front-end responsável pelas customizações de novos parceiros.",
+    "challenge": "Modernizar a operação sem abandonar o JSON e os componentes que já existiam.",
+    "deployment": [
+      [
+        "Conviver com o legado",
+        "O ponto de partida foi adaptar os tokens ao formato que o Front já consumia. A ferramenta precisava caber no produto existente."
+      ],
+      [
+        "Experimentar antes de escalar",
+        "A primeira versão passou por testes em ambientes seguros e ajustes em conjunto com o Front-end. Só depois o processo foi para produção."
+      ],
+      [
+        "Passar o bastão",
+        "Documentação, componentes e demonstrações fizeram parte da entrega. O ganho de escala apareceu quando uma pessoa júnior conseguiu assumir a customização com suporte."
+      ]
+    ],
+    "summary": "Um processo de customização white-label mais consistente, com tokens, documentação e autonomia para o time.",
+    "status": "Processo implantado",
+    "actionTitles": [
+      "Entender a realidade do Front",
+      "Adaptar e testar o legado",
+      "Documentar e compartilhar",
+      "Criar uma base reutilizável"
+    ],
+    "extras": {},
+    "media": [
+      {
+        "id": "design-tokens-s",
+        "stage": "s",
+        "type": "image",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Da marca ao componente",
+        "caption": "Exemplos das diferenças entre parceiros",
+        "items": []
+      },
+      {
+        "id": "design-tokens-a",
+        "stage": "a",
+        "type": "video",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Customização na prática",
+        "caption": "Gravação do fluxo de tokens até a interface",
+        "items": []
+      }
+    ]
+  },
+  {
+    "slug": "reativacao",
+    "title": "Voltar para a conta sem entrar numa fila.",
+    "name": "Reativação de contas",
+    "category": "Service Design · Autosserviço · App e Backoffice",
+    "client": "Jazz / Motorola · dimo",
+    "period": "Outubro de 2023 a fevereiro de 2024",
+    "role": "Design de jornada e articulação com Produto, Tecnologia e CX",
+    "metric": "−38%",
+    "metricLabel": "nos tickets de reativação reportados",
+    "image": null,
+    "intro": "Para o cliente, era só voltar a usar a conta. Nos bastidores, era uma sequência de solicitações manuais entre áreas. Olhamos as duas pontas do problema.",
+    "s": "A reativação de contas inativas dependia de um processo manual e burocrático. Campanhas de crédito aumentavam a procura pelo atendimento, e os atendentes tinham dificuldade para consultar o status e resolver a solicitação no primeiro contato.",
+    "t": "Precisávamos criar uma jornada viável no app e melhorar a operação no Backoffice. Meu trabalho conectou o diagnóstico da experiência às restrições do legado, para que a solução ajudasse tanto o cliente quanto quem atendia.",
+    "a": [
+      "Reunimos stakeholders, ouvimos a Central e analisamos tickets, relatos, NPS e dados de comportamento. Documentamos o cenário e desenhamos o fluxo e o service blueprint.",
+      "Com Produto e Tecnologia, definimos o recorte do MVP: autosserviço para contas com até 180 dias de inatividade. Períodos maiores continuariam com a Central, por viabilidade técnica.",
+      "Refinamos as telas e os fluxos de app e Backoffice com os times envolvidos. A consulta de status e o desbloqueio precisavam funcionar nas duas frentes.",
+      "Também articulamos a prevenção com Marketing, Produto e Negócios. Reativar sem incentivar o uso da conta podia apenas reiniciar o mesmo ciclo."
+    ],
+    "r": "O relato do projeto registra redução média de 38% nos tickets e aumento de 14% na atividade geral da base. Outro ganho foi estabelecer o KPI de autosserviço como referência para novas evoluções.",
+    "learning": "Resolver a experiência do cliente exige olhar o trabalho de quem está do outro lado do atendimento. Um MVP com limites claros abriu caminho para evoluir sem esperar a solução perfeita.",
+    "evidence": "Resultados relatados na página Projetos do Figma. Os rascunhos usam períodos diferentes de acompanhamento; por isso, não atribuo aqui uma janela única aos percentuais.",
+    "source": "https://www.figma.com/design/WDkupIOTjCNSNfOjz4UJG1/Portf%C3%B3lio-Jorge?node-id=190-1842",
+    "product": "Um serviço de recuperação de acesso para contas dimo inativas. Ele conecta o app do cliente ao Backoffice usado pela Central: de um lado, a pessoa quer voltar a movimentar a conta; do outro, o atendimento precisa entender o status e saber o que pode fazer.",
+    "audience": "Clientes com conta inativa e equipes de atendimento que apoiam a reativação.",
+    "challenge": "Criar autosserviço no app e, ao mesmo tempo, dar condições para o atendimento resolver as exceções.",
+    "deployment": [
+      [
+        "Recortar o que era viável",
+        "O MVP contemplou contas com até 180 dias de inatividade. Casos fora desse recorte continuaram na Central, por limitações técnicas."
+      ],
+      [
+        "Desenhar os bastidores",
+        "Fluxos de app, consulta de status e desbloqueio no Backoffice precisavam conversar. O service blueprint ajudou a enxergar essas dependências."
+      ],
+      [
+        "Reativar não era o fim",
+        "Campanhas de crédito traziam demanda para uma operação manual. A conversa com Marketing, Produto e Negócios incluiu também como incentivar uso depois da reativação."
+      ]
+    ],
+    "summary": "Autosserviço no app e suporte no Backoffice para reativar contas, com limites claros para o MVP.",
+    "status": "MVP implantado",
+    "actionTitles": [
+      "Escutar clientes e atendimento",
+      "Definir os limites do MVP",
+      "Conectar app e Backoffice",
+      "Pensar no uso depois da reativação"
+    ],
+    "extras": {},
+    "media": [
+      {
+        "id": "reativacao-s",
+        "stage": "s",
+        "type": "image",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "As duas pontas da jornada",
+        "caption": "Service blueprint de cliente e atendimento",
+        "items": []
+      },
+      {
+        "id": "reativacao-a",
+        "stage": "a",
+        "type": "video",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "App e Backoffice em conversa",
+        "caption": "Telas, estados e vídeo do fluxo de reativação",
+        "items": []
+      }
+    ]
+  },
+  {
+    "slug": "gamification",
+    "title": "E se uma conta digital desse vontade de voltar?",
+    "name": "Dimo Arena & Dimogotchi",
+    "category": "Gamificação · Pesquisa · Storytelling",
+    "client": "Motorola / dimo",
+    "period": "Hackathon · julho de 2022",
+    "role": "Product Designer em equipe com Design, Research e Marketing",
+    "metric": "+35%",
+    "metricLabel": "de evolução relatada após adoção parcial",
+    "image": "gamification.jpg",
+    "intro": "Um hackathon, quatro dias de trabalho encaixados na rotina e um desafio: criar motivos para o cliente usar a conta. Foi assim que começamos a imaginar o Motoverso.",
+    "s": "A conta tinha baixa movimentação e precisava fortalecer retenção e uso recorrente. O desafio do hackathon era propor uma mecânica de gamificação com esforço de implementação viável, sem parar as outras entregas.",
+    "t": "Como Product Designer, participei da construção e da defesa da proposta com uma equipe de Design, Research e Marketing. No quinto dia, teríamos de apresentar o projeto para stakeholders e lideranças. Era “nós por nós” até lá.",
+    "a": [
+      "Dividimos o trabalho pelas especialidades do grupo: dados internos do público, pesquisa de mercado, moodboard e storytelling. A Pesquisa Game Brasil ajudou a contextualizar o comportamento de quem joga.",
+      "Criamos o conceito do Motoverso e da Dimo Arena, reunindo desafios, recompensas e progressão. O Dimogotchi trouxe uma referência afetiva ao bichinho virtual, conectada à identidade da Motorola.",
+      "Exploramos DimoCoins, missões e metas pessoais, aproveitando possibilidades de produtos que já existiam. Organizamos o protótipo e a narrativa para explicar como as partes se conectavam."
+    ],
+    "r": "Nem tudo virou produto — e isso também faz parte da história. Com um time técnico enxuto e várias etapas de validação, a empresa adotou partes da proposta. Meu relato original registra evolução aproximada de 35% na retenção e no volume transacional após essa adoção parcial.",
+    "learning": "Sonhar grande foi importante. Entender cedo o que conseguiríamos colocar de pé teria sido ainda melhor. O valor da proposta continuou existindo mesmo quando o escopo mudou.",
+    "evidence": "Conceito de hackathon com implantação parcial. As telas representam a proposta, não a confirmação de lançamento de todas as funcionalidades. Percentual relatado no portfólio original.",
+    "source": "https://jorgeborloni.framer.website/works/hackathon-gamification",
+    "detail": "dimo-detail.jpg",
+    "product": "Uma proposta de gamificação para a conta digital dimo, da Motorola. A Dimo Arena reunia desafios e recompensas; o Dimogotchi usava a ideia de um bichinho virtual para dar forma à progressão. O objetivo era criar motivos para voltar ao app e movimentar a conta.",
+    "audience": "Clientes da dimo, com referências de comportamento exploradas pela pesquisa do hackathon.",
+    "challenge": "Transformar uma ideia ambiciosa em algo que um time técnico enxuto conseguisse colocar de pé.",
+    "deployment": [
+      [
+        "Quatro dias, várias frentes",
+        "Pesquisa, conceito, protótipo e apresentação aconteceram junto das demandas da rotina. Dividir responsabilidades pela especialidade de cada pessoa foi essencial."
+      ],
+      [
+        "Conectar à vida financeira",
+        "As mecânicas precisavam fazer sentido para produtos e comportamentos que já existiam na conta. Missões e recompensas não poderiam ser apenas um jogo separado."
+      ],
+      [
+        "Negociar a ambição",
+        "Capacidade técnica e etapas de validação mudaram o alcance da proposta. A adoção foi parcial; as telas do conceito não representam tudo o que foi lançado."
+      ]
+    ],
+    "summary": "Uma proposta de gamificação para aproximar clientes da conta dimo, construída em hackathon e adotada parcialmente.",
+    "status": "Conceito com adoção parcial",
+    "actionTitles": [
+      "Pesquisar e dividir o trabalho",
+      "Criar um universo com propósito",
+      "Conectar mecânicas e vida financeira"
+    ],
+    "extras": {
+      "s": [
+        {
+          "title": "Tempo, equipe e público da pesquisa",
+          "paragraphs": [
+            "Tínhamos conversas de duas a três horas distribuídas em quatro dias, sem parar as entregas da rotina. No quinto, apresentaríamos a proposta a stakeholders e lideranças de Tecnologia, Produto e Marketing.",
+            "Éramos um Product Designer, uma UX Researcher, um Designer e uma Analista de Marketing. Dividimos pesquisa interna nos BIs, desk research, moodboard e storytelling conforme as especialidades de cada pessoa.",
+            "O público observado era majoritariamente masculino, entre 20 e 49 anos, com renda mensal de R$ 1 mil a R$ 3 mil e movimentação baixa ou inexistente. A Pesquisa Game Brasil complementou o olhar interno. São características do recorte estudado em 2022."
+          ]
+        }
+      ],
+      "a": [
+        {
+          "title": "Motoverso e Dimo Arena: a história conectando as partes",
+          "paragraphs": [
+            "O Motoverso era um ambiente conceitualmente separado da conta: entrar nele significava acessar desafios, atividades e recompensas. A referência de universos paralelos, presente em filmes e jogos em 2022, ajudou a construir o moodboard. O show do Emicida no Fortnite também entrou nesse repertório.",
+            "A narrativa colocava o cliente como protagonista na busca pelos maiores Motolovers. O conceito previa ranking anual com cinco vencedores e possibilidades de prêmios, experiências em lançamentos e descontos. Eram propostas para discussão, não benefícios já disponíveis.",
+            "A Dimo Arena concentraria desafios, prêmios, ranking e emblemas. A história ajudava a explicar o objetivo e a relação entre cada mecânica."
+          ]
+        },
+        {
+          "title": "As cinco mecânicas da proposta",
+          "paragraphs": [
+            "Dimogotchi — um avatar de morceguinho, associado ao símbolo da Motorola e à nostalgia do Tamagotchi. Acessos e movimentações dariam pontos de experiência para evoluir o avatar.",
+            "DimoCoins — moeda virtual para recompensar missões e progressão, com possibilidades de descontos e produtos Motorola. Idealizamos moedas diárias por acesso nos dois primeiros meses como incentivo inicial.",
+            "Desafios Relâmpagos — missões surpresa com prazo e prêmio definidos. Cada missão revelaria uma parte de um quebra-cabeça até mostrar a recompensa.",
+            "Dimo Rising — metas criadas pelo próprio cliente ou escolhidas na Arena. A ideia aproveitava um produto de investimento existente para guardar dinheiro por um período e recompensar o objetivo concluído com DimoCoins.",
+            "Ranking e emblemas — formas de reconhecer a progressão e conectar as atividades à história dos campeões Motorola. Todas essas mecânicas pertencem ao conceito; a implantação foi parcial."
+          ]
+        }
+      ],
+      "r": [
+        {
+          "title": "O que ficou para depois da primeira implantação",
+          "paragraphs": [
+            "O relato original atribui a evolução aproximada de 35% em retenção e volume transacional ao primeiro ano após a adoção de partes da proposta. Não significa que todo o Motoverso tenha sido lançado, nem isola o efeito de uma mecânica específica.",
+            "Comunidade Dimo: imaginamos um espaço externo para jogos, campeonatos e fóruns. Clientes poderiam compartilhar dúvidas, sugestões e respostas, com reconhecimento em DimoCoins e novos insumos para melhorar as jornadas.",
+            "Liga dos Campeões: os jogadores mais bem colocados poderiam conhecer a Motorola e participar de pesquisas e testes de usabilidade. Recompensas dependeriam da definição de Negócios.",
+            "Essas extensões e a implantação integral permaneceram como próximos passos no relato. O aprendizado foi equilibrar ambição, capacidade técnica e tempo de validação."
+          ]
+        }
+      ]
+    },
+    "team": "Caroline Torquato — Marketing; Diogo Nakamura — Design; Alice Silva — UX Research; Jorge Borloni — Product Design.",
+    "prototype": "https://www.figma.com/proto/eCLdHFEyfzGHZG60SKdqDP/Gamification?page-id=249%3A11884&node-id=256-24929&scaling=scale-down&starting-point-node-id=256%3A24929",
+    "media": [
+      {
+        "id": "gamification-s",
+        "stage": "s",
+        "type": "image",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Pesquisa e repertório",
+        "caption": "Dados do público e referências do conceito",
+        "items": []
+      },
+      {
+        "id": "gamification-a",
+        "stage": "a",
+        "type": "video",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Um passeio pela Dimo Arena",
+        "caption": "Vídeo do protótipo e mecânicas propostas",
+        "items": []
+      }
+    ]
+  },
+  {
+    "slug": "regua-dimo",
+    "title": "Um celular na mão. Uma jornada inteira por trás.",
+    "name": "Financiamento Motorola",
+    "category": "Financiamento · UX Writing · Jornada de implantação",
+    "client": "dimo · financiamento",
+    "period": "Trabalho documentado em 2026",
+    "role": "Design de conteúdo na formalização e no acompanhamento do financiamento",
+    "metric": "Ponta a ponta",
+    "metricLabel": "da formalização à compensação",
+    "image": null,
+    "intro": "Comprar o aparelho era o começo. Entender a contratação, validar o código, conhecer as condições e acompanhar as parcelas também precisava fazer parte de uma boa experiência.",
+    "s": "O financiamento conecta a compra do smartphone na loja à vida financeira no app. Nesse caminho, o cliente precisa entender o contrato, validar sua contratação e saber como acompanhar e pagar as parcelas. A comunicação ainda precisava explicar o dimosafe e a possibilidade de restrição do aparelho, conforme as condições contratuais.",
+    "t": "Meu recorte foi tornar essa jornada compreensível na comunicação: da mensagem de formalização aos contatos de onboarding, vencimento e compensação. O desafio era equilibrar o tom próximo da dimo com informações que não podiam se perder na simplificação.",
+    "a": [
+      "Trabalhei a comunicação de formalização por e-mail e SMS, articulando código de verificação, orientação de segurança e acesso às condições da contratação.",
+      "Refinei o texto sobre dimosafe e a possível restrição de funcionalidades. O requisito precisava aparecer com clareza, inclusive num canal curto como o SMS.",
+      "Estruturei conteúdos de onboarding, educação financeira e orientação de pagamento. Depois, diferenciei a linguagem dos lembretes preventivos: primeiro lembrar, depois orientar.",
+      "Incluí a confirmação após a compensação da parcela para fechar o ciclo. O cliente também precisa de retorno quando fez tudo certo."
+    ],
+    "r": "O trabalho documentado reúne mensagens de formalização e uma régua que acompanha o cliente antes e depois do vencimento. O financiamento tem lançamento público documentado pela Motorola; este case trata do meu recorte de comunicação. Não atribuo a essas entregas resultados de conversão ou inadimplência que ainda não foram medidos no material disponível.",
+    "learning": "Implantar uma boa experiência é combinar linguagem, regras e operação. No financiamento, ficou claro para mim que o cuidado com o cliente começa antes de validar o código e continua depois de pagar a parcela.",
+    "evidence": "Contexto do produto confirmado na comunicação oficial da Motorola. Meu recorte de atuação está documentado nas conversas sobre formalização, SMS e régua dimo. Impacto das mensagens ainda não mensurado.",
+    "source": null,
+    "product": "O financiamento dimo permite comprar um smartphone Motorola de forma parcelada, sem depender de cartão de crédito. A jornada começa na loja, passa pela análise e formalização e continua na conta digital, onde o cliente acompanha as parcelas. É um serviço que atravessa varejo, crédito, aparelho, app e atendimento.",
+    "audience": "Pessoas comprando um Motorola financiado e acompanhando sua contratação pela dimo.",
+    "challenge": "Fazer a comunicação acompanhar um produto com muitas dependências, sem esconder informações importantes nem transformar toda conversa em cobrança.",
+    "deployment": [
+      [
+        "Clareza e exigências contratuais",
+        "Um requisito recebido no trabalho foi informar, inclusive nas mensagens de código de verificação, a possibilidade de restrição de funcionalidades do aparelho em caso de inadimplência. Era preciso dar acesso às condições do contrato e explicar o dimosafe com cuidado."
+      ],
+      [
+        "Pouco espaço, muita responsabilidade",
+        "E-mail e SMS tinham papéis diferentes na formalização. No SMS, o limite de caracteres disputava espaço com o código, o aviso de segurança e a informação contratual. A síntese precisava preservar o que o cliente deveria entender antes de continuar."
+      ],
+      [
+        "Texto depende do momento certo",
+        "Onboarding, lembrete de vencimento e confirmação de compensação são eventos diferentes. Na implantação, os disparos precisam refletir o status real do contrato e do pagamento. Uma boa mensagem enviada na hora errada também cria ruído."
+      ]
+    ],
+    "productSource": "https://motorolanews.com/br/dimo-lanca-financiamento-para-compra-de-smartphones-motorola/",
+    "summary": "Comunicação de formalização e acompanhamento de um financiamento que conecta loja, contrato, aparelho e conta digital.",
+    "status": "Comunicação documentada",
+    "actionTitles": [
+      "Orientar a formalização",
+      "Explicar condições com clareza",
+      "Dar contexto aos lembretes",
+      "Fechar o ciclo do pagamento"
+    ],
+    "extras": {},
+    "media": [
+      {
+        "id": "regua-dimo-s",
+        "stage": "s",
+        "type": "image",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Da loja à rotina de pagamento",
+        "caption": "Mapa dos momentos de contato com o cliente",
+        "items": []
+      },
+      {
+        "id": "regua-dimo-a",
+        "stage": "a",
+        "type": "video",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Comunicação no momento certo",
+        "caption": "Exemplos de SMS, e-mails e linha do tempo",
+        "items": []
+      }
+    ]
+  },
+  {
+    "slug": "cultura-jazz",
+    "title": "Design também é criar espaço para pensar junto.",
+    "name": "Cultura e colaboração na Jazz",
+    "category": "Liderança · Facilitação · Pesquisa interna",
+    "client": "Jazz · colaboração entre áreas",
+    "period": "Iniciativa em construção · 2026",
+    "role": "Pesquisa pós-workshop e articulação de uma proposta cultural",
+    "metric": "Pensar junto",
+    "metricLabel": "antes de sair fazendo",
+    "image": null,
+    "intro": "O workshop acaba. E depois? Meu interesse foi transformar a conversa e os aprendizados em insumos para melhorar como a gente trabalha.",
+    "s": "A partir dos encontros com o Thoz e das iniciativas de cultura na Jazz, quis entender o que as pessoas levavam para a rotina e onde ainda encontravam dificuldades para colaborar entre áreas.",
+    "t": "Conduzi uma pesquisa sobre o evento e organizei os aprendizados para a conversa com as lideranças. Em paralelo, iniciei a construção do “Jeito Jazz de fazer”, ampliando o olhar de produto para processos, documentos e decisões.",
+    "a": [
+      "Reuni as respostas da pesquisa e os registros das dinâmicas para organizar temas recorrentes, diferenciando satisfação com o evento de oportunidades de mudança na rotina.",
+      "Preparei a discussão com lideranças e Thoz em torno de participação antecipada das áreas, compartilhamento de evidências e clareza de responsabilidades.",
+      "Estruturei um benchmark e uma proposta inicial para o Jeito Jazz de fazer, com princípios candidatos e possibilidades de experimentar novas práticas."
+    ],
+    "r": "A entrega documentada reúne uma síntese para discussão, um benchmark e uma proposta inicial de cultura de trabalho. É uma iniciativa em construção: adoção das práticas e impacto organizacional ainda não estão comprovados no material disponível.",
+    "learning": "Como líder, quero ajudar o time a construir contexto e autonomia. Uma boa dinâmica abre a conversa; a mudança aparece quando conseguimos levar o aprendizado para decisões e práticas do cotidiano.",
+    "evidence": "Baseado nas conversas sobre o workshop e a proposta Jeito Jazz. Hipóteses e sugestões de rituais não são apresentadas como práticas já implantadas.",
+    "source": null,
+    "product": "Aqui, o objeto de design é o jeito de trabalhar. A iniciativa Jeito Jazz de fazer reúne pesquisa interna, aprendizados de workshops e uma proposta de princípios para aproximar áreas e melhorar como decisões, processos e documentos são construídos.",
+    "audience": "Pessoas e lideranças da Jazz que colaboram em produtos, processos e decisões.",
+    "challenge": "Transformar a energia de um encontro em práticas que façam sentido na rotina.",
+    "deployment": [
+      [
+        "Satisfação não é adoção",
+        "Gostar do workshop é um sinal, mas não comprova mudança na rotina. Organizar o retorno das pessoas ajudou a separar percepção do evento de oportunidades de evolução."
+      ],
+      [
+        "Construir com as lideranças",
+        "Os aprendizados foram preparados para discussão com lideranças e Thoz. Uma proposta cultural depende de participação e responsabilidade compartilhadas."
+      ],
+      [
+        "Começar com hipóteses claras",
+        "Benchmark, princípios candidatos e possibilidades de rituais formam uma proposta inicial. O próximo desafio é experimentar, acompanhar e ajustar; o material disponível ainda não demonstra adoção organizacional."
+      ]
+    ],
+    "summary": "Pesquisa e facilitação para transformar aprendizados de workshops em uma proposta de colaboração entre áreas.",
+    "status": "Iniciativa em construção",
+    "actionTitles": [
+      "Organizar os retornos",
+      "Levar evidências à conversa",
+      "Estruturar uma proposta inicial"
+    ],
+    "extras": {},
+    "media": [
+      {
+        "id": "cultura-jazz-s",
+        "stage": "s",
+        "type": "image",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Escuta e colaboração",
+        "caption": "Registros do workshop e síntese da pesquisa",
+        "items": []
+      },
+      {
+        "id": "cultura-jazz-a",
+        "stage": "a",
+        "type": "video",
+        "src": "",
+        "poster": "",
+        "alt": "",
+        "title": "Do encontro para a rotina",
+        "caption": "Materiais de facilitação e proposta de princípios",
+        "items": []
+      }
+    ]
+  }
+]
