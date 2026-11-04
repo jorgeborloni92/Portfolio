@@ -1,3 +1,8 @@
+// Localized labels for interactive states.
+const jbText = (() => {
+ const en = {"Movimento reduzido nas preferências do dispositivo": "Reduced motion is enabled in your device settings", "Ativar animações": "Enable animations", "Pausar animações": "Pause animations", "Ativar movimento": "Enable motion", "Pausar movimento": "Pause motion", "Virar o disco: voltar ao retrato de Jorge": "Flip the record: return to Jorge’s portrait", "Virar o disco: conhecer meu repertório brasileiro": "Flip the record: discover my Brazilian influences", "Fachadas do Pelourinho, Salvador: repertório brasileiro": "Facades in Pelourinho, Salvador: Brazilian influences", "Jorge Borloni sorrindo": "Jorge Borloni smiling", "LADO B — O QUE ME MOVE": "SIDE B — WHAT MOVES ME", "LADO A — QUEM FAZ": "SIDE A — THE PERSON BEHIND IT"};
+ return text => document.documentElement.lang.startsWith('en') ? (en[text] || text) : text;
+})();
 (() => {
   const root=document.documentElement, preference=matchMedia('(prefers-reduced-motion: reduce)');
   const toggle=document.querySelector('.motion-toggle');
@@ -6,7 +11,7 @@
   const reduced=()=>preference.matches||paused;
   function applyMotion(){
     root.classList.toggle('motion-on',!reduced()); root.classList.toggle('motion-paused',reduced());
-    if(toggle){toggle.disabled=preference.matches;toggle.setAttribute('aria-pressed',String(reduced()));toggle.title=preference.matches?'Movimento reduzido nas preferências do dispositivo':reduced()?'Ativar animações':'Pausar animações';toggle.innerHTML=(reduced()?'▶':'Ⅱ')+' <span>'+(reduced()?'Ativar movimento':'Pausar movimento')+'</span>';}
+    if(toggle){toggle.disabled=preference.matches;toggle.setAttribute('aria-pressed',String(reduced()));toggle.title=preference.matches?jbText("Movimento reduzido nas preferências do dispositivo"):reduced()?jbText("Ativar animações"):jbText("Pausar animações");toggle.innerHTML=(reduced()?'▶':'Ⅱ')+' <span>'+(reduced()?jbText("Ativar movimento"):jbText("Pausar movimento"))+'</span>';}
   }
   applyMotion();preference.addEventListener('change',applyMotion);
   toggle?.addEventListener('click',()=>{paused=!paused;try{localStorage.setItem('jb-motion',paused?'paused':'active');}catch{}applyMotion();});
@@ -50,10 +55,10 @@
  record.addEventListener('click',()=>{
   const b=record.getAttribute('aria-pressed')!=='true';
   record.setAttribute('aria-pressed',String(b));
-  record.setAttribute('aria-label',b?'Virar o disco: voltar ao retrato de Jorge':'Virar o disco: conhecer meu repertório brasileiro');
+  record.setAttribute('aria-label',b?jbText("Virar o disco: voltar ao retrato de Jorge"):jbText("Virar o disco: conhecer meu repertório brasileiro"));
   const img=record.querySelector('img');
   img.src=b?'/assets/brasil/pelourinho.jpg':'/assets/portrait.png';
-  img.alt=b?'Fachadas do Pelourinho, Salvador: repertório brasileiro':'Jorge Borloni sorrindo';
-  document.querySelector('.record-caption').textContent=b?'LADO B — O QUE ME MOVE':'LADO A — QUEM FAZ';
+  img.alt=b?jbText("Fachadas do Pelourinho, Salvador: repertório brasileiro"):jbText("Jorge Borloni sorrindo");
+  document.querySelector('.record-caption').textContent=b?jbText("LADO B — O QUE ME MOVE"):jbText("LADO A — QUEM FAZ");
  });
 })();

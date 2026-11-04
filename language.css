@@ -1,0 +1,10 @@
+/* Language choice remains visible on every page, including narrow screens. */
+.language-switch{display:inline-flex;align-items:center;flex-shrink:0;gap:2px;padding:3px;border:1px solid currentColor;border-radius:999px;font-size:12px;line-height:1;font-weight:700}
+.language-switch a{display:grid;place-items:center;min-width:40px;min-height:38px;padding:8px 10px;border-radius:999px;text-decoration:none;transition:background .15s,color .15s}
+.language-switch a[aria-current="true"]{background:#fbe5c4;color:#102c27}
+.language-switch a:hover{background:#fbe5c433}
+.language-switch a[aria-current="true"]:hover{background:#fbe5c4}
+.language-switch a:focus-visible{outline:3px solid #f4c549;outline-offset:3px}
+html[lang="en-US"] .album-description{max-width:28ch}
+@media(max-width:680px){.header-actions{gap:8px}.language-switch a{min-width:36px;min-height:36px;padding:8px}.header-actions .nav-contact{font-size:11px;padding:6px 8px}}
+@media(max-width:380px){header{padding-inline:4%}.header-actions{gap:6px}.header-actions .nav-contact{max-width:85px;text-align:center;line-height:1.2}}
