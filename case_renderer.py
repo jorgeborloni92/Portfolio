@@ -13,7 +13,7 @@ ICONS={
 def icon(name):return f'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ICONS[name]}</svg>'
 def dock(case=False):
  items=[('home','inicio','Início'),('grid','projetos','Projetos'),('user','sobre','Sobre'),('book','escritos','Escritos'),('chat','contato','Contato')]
- return '<nav class="bottom-nav" aria-label="Navegação principal">'+''.join(f'<a href="/#{key}" data-destination="{key}"'+(' aria-current="page"' if case and key=='projetos' else '')+f'><span class="nav-icon">{icon(ic)}</span><span>{label}</span></a>' for ic,key,label in items)+'</nav>'
+ return '<nav class="bottom-nav" aria-label="Navegação principal">'+''.join(f'<a href="/#{key}" data-destination="{key}"'+(' aria-current="page"' if case and key=='projetos' else '')+f'><span class="nav-icon"><img src="/assets/custom/nav/{ic}.svg" alt="" width="18" height="18"></span><span>{label}</span></a>' for ic,key,label in items)+'</nav>'
 def text_paragraphs(text):
  # Keep every sentence. Introduce a paragraph break after two sentences for comfortable reading.
  parts=re.split(r'(?<=[.!?])\s+(?=[A-ZÀ-Ý])',text)

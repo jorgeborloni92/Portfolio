@@ -1,0 +1,62 @@
+/* User-supplied artwork: preserve the entire image in its intended slot. */
+.hero .record-sleeve{width:100%;margin:0;aspect-ratio:1;border:0;border-radius:8px;background:transparent;box-shadow:none;perspective:1400px;transform:rotate(-3deg);transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.record-flipper{display:block;position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .85s cubic-bezier(.22,.7,.16,1)}
+.record-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:8px;box-shadow:6px 16px 30px #152c2326;overflow:hidden}
+.record-face img{display:block;width:100%;height:100%;object-fit:contain}
+.record-back{transform:rotateY(180deg)}
+.record-sleeve[aria-pressed=true] .record-flipper{transform:rotateY(180deg)}
+.hero .record-sleeve[aria-pressed=true]{transform:rotate(2deg)}
+.hero .record-sleeve:active{transform:rotate(0deg) scale(.985)}
+.hero .record-sleeve:focus-visible{outline:3px solid var(--ui-green);outline-offset:10px}
+.album-object{padding:14px 0 64px}
+.project-card:has(.custom-project-image) .project-art{aspect-ratio:1200/857}
+.project-card .project-art>.custom-project-image{display:block;width:100%;height:100%;object-fit:contain;transform:none!important}
+.case-banner:has(>.custom-project-image){aspect-ratio:1800/819;height:auto}
+.case-banner>.custom-project-image{display:block;width:100%;height:auto;object-fit:contain}
+.custom-article-thumb{padding:0;background:transparent;aspect-ratio:1;height:auto;overflow:hidden}
+.custom-article-thumb img{display:block;width:100%;height:auto;object-fit:contain}
+.footer-title>.footer-portrait{display:block;width:clamp(100px,12vw,180px);height:auto;object-fit:contain;flex-shrink:0;align-self:end}
+/* Glass reference: Figma 286:3056; 540px capsule, 48px links, pale selection. */
+.bottom-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;padding:7px;width:min(540px,calc(100% - 32px));border-radius:40px;background:rgba(252,253,248,.3);border:1px solid #ffffffb3;backdrop-filter:blur(24px) saturate(1.8);-webkit-backdrop-filter:blur(24px) saturate(1.8);box-shadow:0 8px 32px #122c2726,inset 0 1px 1px #fff,inset 0 -1px 1px #ffffff80;isolation:isolate;overflow:visible}
+.bottom-nav:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;border:0;background:linear-gradient(145deg,#ffffff66,transparent 42%,#ffffff22 70%,#ffffff88);box-shadow:inset 1px 0 1px #ffffffc4,inset -1px 0 1px #ffffff6b}
+.bottom-nav:after{content:'';position:absolute;left:7px;top:7px;bottom:7px;width:calc((100% - 30px)/5);border-radius:28px;pointer-events:none;z-index:0;opacity:0;background:linear-gradient(162deg,rgba(255,255,255,.79) 6%,rgba(215,232,220,.78) 94%);box-shadow:inset 0 1px 1px white,0 1px 5px #1d402214;transform:translateX(calc(var(--nav-index,0)*100% + var(--nav-index,0)*4px));transition:transform .46s cubic-bezier(.2,.85,.2,1)}
+.bottom-nav.has-indicator:after{opacity:1}
+.bottom-nav a{position:relative;z-index:1;min-height:48px;padding:8px 12px;font-size:12px;font-weight:500;line-height:1.4;border-radius:28px;color:#344c40;gap:7px;transition:color .18s,transform .18s,background-color .18s}
+.bottom-nav a[aria-current],.bottom-nav a[aria-current]:hover{color:#104533;font-weight:600;background:linear-gradient(162deg,#ffffffc9,#d7e8dcc7);box-shadow:inset 0 1px 1px #fff}
+.bottom-nav.has-indicator a[aria-current],.bottom-nav.has-indicator a[aria-current]:hover{background:transparent;box-shadow:none}
+.bottom-nav a:hover{background:#ffffff33;color:#104533}
+.bottom-nav a:active{transform:scale(.94)}
+.bottom-nav a:focus-visible{outline:2px solid #104533;outline-offset:1px}
+.bottom-nav .nav-icon{width:18px;height:20px;display:grid;place-items:center}
+.bottom-nav .nav-icon img{width:18px;height:18px;display:block}
+.bottom-nav.over-dark{background:rgba(252,253,248,.78)}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ html:not(.motion-paused) .hero .record-sleeve:hover{transform:rotate(-1deg) translateY(-4px);box-shadow:none}
+ html:not(.motion-paused) .project-card:hover .project-art{transform:translateY(-4px);box-shadow:0 10px 24px #122c2718}
+ html:not(.motion-paused) .article-row:hover .custom-article-thumb{transform:rotate(-3deg) scale(1.025)}
+}
+.project-art{transition:transform .32s cubic-bezier(.2,.7,.2,1),box-shadow .32s}
+.custom-article-thumb{transition:transform .32s cubic-bezier(.2,.7,.2,1)}
+.button:active,.project-filters button:active{transform:scale(.97)}
+@media(max-width:680px){
+ .album-object{width:86%;max-width:320px;padding:12px 0 64px}
+ .hero .record-sleeve{width:100%;margin:0}
+ .bottom-nav{width:calc(100% - 24px);max-width:440px;gap:4px;padding:7px;border-radius:34px}
+ .bottom-nav a{flex-direction:column;min-height:54px;padding:6px 1px;font-size:10px;gap:3px}
+ .bottom-nav a[aria-current]{border-radius:28px}
+ .custom-article-thumb{width:56px;height:56px}
+ .footer-title>.footer-portrait{width:82px;align-self:center}
+ .footer-title{gap:12px}
+}
+@media(prefers-reduced-motion:reduce){
+ .record-flipper,.hero .record-sleeve,.bottom-nav:after,.bottom-nav a,.project-art,.custom-article-thumb{transition:none!important;animation:none!important}
+ .button:active,.project-filters button:active,.bottom-nav a:active{transform:none}
+}
+html.motion-paused .record-flipper,html.motion-paused .hero .record-sleeve,html.motion-paused .bottom-nav:after,html.motion-paused .bottom-nav a,html.motion-paused .project-art,html.motion-paused .custom-article-thumb{transition:none!important;animation:none!important}
+html.motion-paused .button:active,html.motion-paused .project-filters button:active,html.motion-paused .bottom-nav a:active{transform:none}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.bottom-nav{background:#f3f5ee;border-color:#a7baae}}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){
+ .bottom-nav,.bottom-nav.over-dark{background:#f3f5ee;border-color:#526359;backdrop-filter:none;-webkit-backdrop-filter:none}
+ .bottom-nav:before{background:none}
+ .bottom-nav:after,.bottom-nav a[aria-current]{background:#d7e8dc}
+}
