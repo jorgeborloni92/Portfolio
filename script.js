@@ -11,7 +11,7 @@ const jbText = (() => {
   const reduced=()=>preference.matches||paused;
   function applyMotion(){
     root.classList.toggle('motion-on',!reduced()); root.classList.toggle('motion-paused',reduced());
-    if(toggle){toggle.disabled=preference.matches;toggle.setAttribute('aria-pressed',String(reduced()));toggle.title=preference.matches?jbText("Movimento reduzido nas preferências do dispositivo"):reduced()?jbText("Ativar animações"):jbText("Pausar animações");toggle.innerHTML=(reduced()?'▶':'Ⅱ')+' <span>'+(reduced()?jbText("Ativar movimento"):jbText("Pausar movimento"))+'</span>';}
+    if(toggle){toggle.disabled=preference.matches;toggle.setAttribute('aria-pressed',String(reduced()));toggle.title=preference.matches?jbText("Movimento reduzido nas preferências do dispositivo"):reduced()?jbText("Ativar animações"):jbText("Pausar animações");toggle.setAttribute('aria-label',toggle.title);toggle.innerHTML=(reduced()?'▶':'Ⅱ')+' <span>'+(reduced()?jbText("Ativar movimento"):jbText("Pausar movimento"))+'</span>';}
   }
   applyMotion();preference.addEventListener('change',applyMotion);
   toggle?.addEventListener('click',()=>{paused=!paused;try{localStorage.setItem('jb-motion',paused?'paused':'active');}catch{}applyMotion();});
@@ -31,21 +31,21 @@ const jbText = (() => {
       if(scrollY+innerHeight>=root.scrollHeight-10)current='contato';
       dock.forEach(a=>{if(a.dataset.destination===current)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});
     }
-    if(chapters.length){let current=chapters[0].id;chapters.forEach(s=>{if(s.getBoundingClientRect().top<150)current=s.id;});indexLinks.forEach(a=>{if(a.hash==='#'+current)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});}
+    if(chapters.length){let current=chapters[0].id;chapters.forEach(s=>{if(s.getBoundingClientRect().top<150)current=s.id;});const mobileLabel=document.querySelector('.mobile-toc summary .current-chapter');if(mobileLabel)mobileLabel.textContent=indexLinks.find(a=>a.hash==='#'+current)?.textContent||'';indexLinks.forEach(a=>{if(a.hash==='#'+current)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});}
   }
   addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(update);}},{passive:true});addEventListener('resize',update);update();
   document.querySelectorAll('a[href*="#"]').forEach(a=>a.addEventListener('click',event=>{
-    const url=new URL(a.href,location.href);if(url.pathname!==location.pathname||!url.hash)return;
+    const url=new URL(a.href,location.href);if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||url.origin!==location.origin||url.pathname!==location.pathname||!url.hash)return;
     const target=document.getElementById(url.hash.slice(1));if(!target)return;
     event.preventDefault();document.querySelector('.mobile-toc')?.removeAttribute('open');
-    history.pushState(null,'',url.hash);target.setAttribute('tabindex','-1');target.focus({preventScroll:true});target.scrollIntoView({behavior:reduced()?'instant':'smooth'});
+    history.pushState(null,'',location.pathname+location.search+url.hash);target.setAttribute('tabindex','-1');target.focus({preventScroll:true});target.scrollIntoView({behavior:reduced()?'instant':'smooth'});
   }));
   const dialog=document.querySelector('.image-dialog');let trigger=null;
   document.querySelectorAll('.zoom-image').forEach(button=>button.addEventListener('click',()=>{
-    trigger=button;const img=dialog.querySelector('img');img.src=button.dataset.full;img.alt=button.dataset.caption;dialog.querySelector('p').textContent=button.dataset.caption;dialog.showModal();
+    trigger=button;const img=dialog.querySelector('img');img.src=button.dataset.full;img.alt=button.dataset.caption;dialog.querySelector('p').textContent=button.dataset.caption;dialog.showModal();root.classList.add('dialog-open');
   }));
   dialog?.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
-  dialog?.addEventListener('close',()=>{dialog.querySelector('img').removeAttribute('src');trigger?.focus({preventScroll:true});});
+  dialog?.addEventListener('close',()=>{root.classList.remove('dialog-open');dialog.querySelector('img').removeAttribute('src');trigger?.focus({preventScroll:true});});
 })();
 
 // Two visual sides of the same repertoire; no autoplay audio.
@@ -61,4 +61,28 @@ const jbText = (() => {
   img.alt=b?jbText("Fachadas do Pelourinho, Salvador: repertório brasileiro"):jbText("Jorge Borloni sorrindo");
   document.querySelector('.record-caption').textContent=b?jbText("LADO B — O QUE ME MOVE"):jbText("LADO A — QUEM FAZ");
  });
+})();
+
+// Progressive enhancement: all projects remain available without JavaScript.
+(() => {
+ const toolbar=document.querySelector('.project-tools');
+ if(!toolbar)return;
+ const buttons=[...toolbar.querySelectorAll('[data-filter]')];
+ const cards=[...document.querySelectorAll('.project-card')];
+ const english=document.documentElement.lang.startsWith('en');
+ function applyFilter(){
+  const requested=new URL(location.href).searchParams.get('work')||'all';
+  const filter=buttons.some(b=>b.dataset.filter===requested)?requested:'all';
+  let count=0;
+  cards.forEach(card=>{card.hidden=filter!=='all'&&card.dataset.category!==filter;if(!card.hidden)count++;});
+  buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===filter)));
+  toolbar.querySelector('.project-count').textContent=english?`${count} ${count===1?'project':'projects'}`:`${count} ${count===1?'projeto':'projetos'}`;
+ }
+ toolbar.hidden=false;
+ buttons.forEach(b=>b.addEventListener('click',()=>{
+  const url=new URL(location.href);
+  if(b.dataset.filter==='all')url.searchParams.delete('work');else url.searchParams.set('work',b.dataset.filter);
+  history.pushState(null,'',url);applyFilter();
+ }));
+ addEventListener('popstate',applyFilter);applyFilter();
 })();
