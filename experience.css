@@ -60,3 +60,8 @@ html.motion-paused .button:active,html.motion-paused .project-filters button:act
  .bottom-nav:before{background:none}
  .bottom-nav:after,.bottom-nav a[aria-current]{background:#d7e8dc}
 }
+
+/* About artwork and editorial link retain the established layout. */
+.about-record img.vinyl{object-fit:contain;background:none;box-shadow:none}
+.about-copy .inline-link{color:var(--ui-green);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.about-copy .inline-link:hover{text-decoration-thickness:2px}
